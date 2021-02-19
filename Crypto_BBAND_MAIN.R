@@ -3,7 +3,7 @@ source("Crypto_BBAND_FUN.R")
 tmz = getTMZ(TF=5,tmDIFF = tmDIFF)
 # ***********************************************************************************************
 # THE FOLLOWING LINE ENSURES THAT THE ALGO START TIMES ARE GREATER THAN THE CURRENT TIME
-# **** IF THE "SCAN" BLOCK STOP/FAILS - RE-RUN LINES: 12-40 *****
+# **** IF THE "SCAN" BLOCK STOP/FAILS - RE-RUN LINES: 11-33 *****
 tmz <- tmz[tmz>(Sys.time()-hours(tmDIFF))]
 # ***********************************************************************************************
 #                               ALGO START
